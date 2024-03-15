@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: blue;
+}
+#main{
+    height: 480px;
+    width: 400px;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    position: absolute;
+    min-height: 100vh;
+}
+#logo{
+    height: 100px;
+    position: absolute;
+    margin-bottom: 100%;
+}
+.container{
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    background: rgb(255, 255, 255);
+}
+#sublist{
+    list-style: none;
+    border: 5px;
+    padding: 20px;
+}
+#ZO1{
+    height: fit-content;
+    width: 90%;
+    display: block;
+    white-space: nowrap;
+    padding: 17px;
+    margin: 10px;
+    border-radius: 20px;
+    background-color: blue;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ZO1:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px 5px #728d9b;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.6s;
+}
+#ZO2{
+    height: fit-content;
+    width: 90%;
+    display: block;
+    white-space: nowrap;
+    padding: 17px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ZO2:hover{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px 5px #728d9b;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.6s;
+}
+#ZO3{
+    height: fit-content;
+    width: 90%;
+    display: block;
+    white-space: nowrap;
+    padding: 17px;
+    margin: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+#ZO3:hover{
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(255, 255, 255);
+    box-shadow: 0px 2px 10px 5px #728d9b;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.6s;
+}
+#ft{
+    margin-top: 130%;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    position: absolute;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
